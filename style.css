@@ -1,0 +1,14 @@
+#gradient {
+     background: #428BCA;
+}
+.breadcrumb {
+     border-radius: 0;
+}
+.bg-body {
+     background: #fafcfe
+}
+.footer{
+     padding: 10px 0;
+     background: gray;
+     margin-top: 20px;
+}
