@@ -19,14 +19,14 @@ $password = $_POST['password'];
 $q = " select * from signup  where roll_no = '$roll_no' && password = '$password' ";
 //$sql = mysqli_query("SELECT name FROM signup ORDER BY name");
 //$new = mysqli_query($con, $sql);
-$sql = "SELECT * from signup where roll_no = '$roll_no' && password = '$password'";
-$new = $con-> query($sql);
+//$sql = "SELECT * from signup where roll_no = '$roll_no' && password = '$password'";
+//$new = $con-> query($sql);
 $result = mysqli_query($con, $q);
 
 $num = mysqli_num_rows($result);
 
 if($num == 1){
-	 $row = $new-> fetch_assoc();
+	 $row = $result-> fetch_assoc();
    $_SESSION['name']=$row['name'];
    $_SESSION['roll_no'] = $row['roll_no'];
    $_SESSION['student_id'] = $row['student_id'];

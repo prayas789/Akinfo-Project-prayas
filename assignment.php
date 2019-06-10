@@ -85,7 +85,7 @@ img {
           <div class="container-fluid">
                <div class="card mb-3">
                  <div class="card-header" runat="server">
-                      Notice Dashboard
+                      Assignment Dashboard
                  </div>
                  <div>
                  <h5>Preview :-</h5>
@@ -149,7 +149,7 @@ img {
                                    <p class="card-text"><?php echo $_SESSION['name']; ?></p>
                                    <br>
 
-                                   <a href="assig_view" class="btn btn-primary">All Assigments </a>
+                                   <a href="assig_view.php" class="btn btn-primary">All Assigments </a>
                                    <br><br>
                               </div>
                          </div>

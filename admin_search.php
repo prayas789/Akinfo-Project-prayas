@@ -100,7 +100,7 @@
                       <form action="Search.php" method="post">
                       <h5>Enter Student Id  :  <input name="roll_no" style="border-radius:50px;"></input></h5>
                       <br>
-                      <input type="submit" name="search" class="btn btn-primary" value="Student Search" style="border-radius:50px;"></input>
+                      <input type="submit" name="s_search" class="btn btn-primary" value="Student Search" style="border-radius:50px;"></input>
                     </form>
                   </div>
                </div>
